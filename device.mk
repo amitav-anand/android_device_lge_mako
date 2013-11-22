@@ -271,7 +271,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # for Gecko
 PRODUCT_PROPERTY_OVERRIDES += \
-       ro.moz.has_home_button=0
+       ro.moz.has_home_button=0 \
+       ro.moz.moz.omx.disable_pause=true
 
 PRODUCT_COPY_FILES += \
 	device/lge/mako/volume.cfg:system/etc/volume.cfg
